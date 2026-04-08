@@ -1,7 +1,10 @@
-# Phishing Email Detecttion Model
+# Phishing Email Detection Model
+
+A natural language processing (NLP) model that detects phishing email attempts through email body text. This project uses Streamlit to provide a user interface here.
 
 File structure:
 
+```
 phishing-email-detector/
 ├── app.py                  # Streamlit app (the front end)
 ├── model/
@@ -13,3 +16,4 @@ phishing-email-detector/
 │   └── emails.csv          # Data
 ├── requirements.txt        # Dependencies
 └── README.md
+```
